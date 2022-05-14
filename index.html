@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Speed Typing - Hill Technologies</title>
+</head>
+<body>
+  <style>
+     .text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+    }
+    
+    .text > p {
+      margin-left: 10px;
+    }
+    </style>
+    <div class="text">
+              <p>&copy;</p>
+              <p id="demo"></p>
+              <p><a href="https://github.com/btcChurchill?">Click here..</a></p>
+          </div>
+  <div class="timer" id="timer"></div>
+  <div class="container">
+    <div class="quote-display" id="quoteDisplay"></div>
+    <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+  </div>
+
+
+  </script>
+            <script>
+            const d = new Date();
+            let year = d.getFullYear();
+            document.getElementById("demo").innerHTML = year;
+    </script>
+</body>
+</html>
